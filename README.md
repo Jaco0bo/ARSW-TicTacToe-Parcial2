@@ -8,6 +8,23 @@
 
 https://reactjs.org/tutorial/tutorial.html#before-we-start-the-tutorial (Repositorio ya construido)
 
+
+**Juego previamente construido:**
+
+El juego inicial consiste en un tablero 3x3 en el que cada turno se van poniendo "X" o "O" dependiendo del jugador:
+
+![](./images/imagen3.png)
+
+El objetivo es conseguir 3 "X" o "O" en linea o diagonal:
+
+![](./images/imagen4.png)
+
+Ademas cuenta con la funcionalidad de poder devolver los movimientos de manera que si un jugador se equivoco puede volver 
+y reintentarlo:
+
+![](./images/imagen5.png)
+
+
 #### 2. A partir de este Juego construya una aplicación interactiva usando WebSockets que permita:
 
  **a. Crear una sala**
@@ -22,6 +39,9 @@ https://reactjs.org/tutorial/tutorial.html#before-we-start-the-tutorial (Reposit
 
 #### BONO: Desplegado en la nube. 
 
-**Evidencia despleigue haciendo uso de Azure:**
+**Evidencia despliegue haciendo uso de Azure:**
 
-![](./images/imagen1)
+![](./images/imagen1.png)
+
+
+![](./images/imagen2.png)
