@@ -108,13 +108,6 @@ function App() {
   }
 
   useEffect(() => {
-    if (!multiplayer || !roomId) return;
-
-    if (!window.SockJS || !window.StompJs) {
-      alert('Faltan librerías SockJS/STOMP en index.html');
-      return;
-    }
-
     const client = new StompJs.Client({
       webSocketFactory: () => new SockJS(WS_ENDPOINT),
       reconnectDelay: 1000,
