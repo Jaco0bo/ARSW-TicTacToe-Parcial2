@@ -21,3 +21,7 @@ https://reactjs.org/tutorial/tutorial.html#before-we-start-the-tutorial (Reposit
  **e. El sistema debe permitir retroceder en la historia en cada sala. Una sala recuperada de la base de datos debe traer sus historia y permitir por ejemplo retroceder en el juego normalmente.**
 
 #### BONO: Desplegado en la nube. 
+
+**Evidencia despleigue haciendo uso de Azure:**
+
+![](./images/imagen1)
