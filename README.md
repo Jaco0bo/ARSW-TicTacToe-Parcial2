@@ -42,6 +42,14 @@ Y tambien la clase RoomController que al final es la que usa el front ``app.js``
 
  **c. Jugar a dos jugadores en forma interactiva una partida de Tic Tac Toe**
 
+Para ello usamos el metodo ``applyMove`` de ``RoomService`` y la clase controller ``GameWsController`` la cual se encarga de manejar la logica de los movimientos de la sala obteniendo el estado
+de la misma y enviandoselos a ``app.js`` para que muestre los movimientos por pantalla:
+
+![](./images/imagen8.png)
+
+![](./images/imagen9.png)
+
+![](./images/imagen10.png)
 
 
  **d. El sistema debe persistir las salas y el estado de Juego a una base de datos.**

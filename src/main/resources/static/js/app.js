@@ -122,7 +122,7 @@ function App() {
 
     client.onConnect = () => {
       client.subscribe(`/topic/rooms/${roomId}`, (msg) => {
-        const state = JSON.parse(msg.body); // GameState desde el servidor
+        const state = JSON.parse(msg.body);
         setServerState(state);
       });
     };
