@@ -31,11 +31,26 @@ y reintentarlo:
 
  **b. Entrar a una sala**
 
+Para ello creamos la clase roomService la cual contiene los metodos para poder crear y unirse a salas, estos metodos son
+syncronized para evitar condiciones de carrera por que dos jugadores intentaron hacer un movimiento al mismo tiempo:
+
+![](./images/imagen6.png)
+
+Y tambien la clase RoomController que al final es la que usa el front ``app.js`` y ``index.html`` para poder acceder a estos servicios:
+
+![](./images/imagen7.png)
+
  **c. Jugar a dos jugadores en forma interactiva una partida de Tic Tac Toe**
+
+
 
  **d. El sistema debe persistir las salas y el estado de Juego a una base de datos.**
 
+
+
  **e. El sistema debe permitir retroceder en la historia en cada sala. Una sala recuperada de la base de datos debe traer sus historia y permitir por ejemplo retroceder en el juego normalmente.**
+
+
 
 #### BONO: Desplegado en la nube. 
 
